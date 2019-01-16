@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validate Class Name</title>
+    <script src="class.js"></script>
+</head>
+<body>
+<script>
+    //hợp lệ
+    var className = 'C0318G';
+    console.log(invalidClassName(className));
+    var className = 'C1218G';
+    console.log(invalidClassName(className));
+
+    //không hợp lệ
+    var className = 'M0318G';
+    console.log(invalidClassName(className));
+    var className = 'C0318G';
+    console.log(invalidClassName(className));
+</script>
+</body>
+</html>
